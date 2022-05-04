@@ -17,13 +17,13 @@ Its test Implementation using javascript and selenium
   ###### npm install selenium-webdriver
 * Install browser drivers - 
   Setting up your system to allow a browser to be automated. here is some hard corded location
-  ######const {Builder} = require('selenium-webdriver');
-  ######const chrome = require('selenium-webdriver/chrome');
-  ######const service = new chrome.ServiceBuilder('/path/to/chromedriver');
-  ######const driver = new Builder().forBrowser('chrome').setChromeService(service).build();
+  ###### const {Builder} = require('selenium-webdriver');
+  ###### const chrome = require('selenium-webdriver/chrome');
+  ###### const service = new chrome.ServiceBuilder('/path/to/chromedriver');
+  ###### const driver = new Builder().forBrowser('chrome').setChromeService(service).build();
 * Open the CMD and move to the location of the cloned folder navigating to the tests folder
 * To test if the test function as expected Run
-  ######node test.js
+  ###### node test.js
 * To run the test one by one execute the commented function calls
 
 ###### Usage
